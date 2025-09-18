@@ -1,0 +1,7 @@
+/* A11y focus improvement */
+:focus-visible{ outline: 3px solid var(--brand); outline-offset: 2px; }
+.sr-only-focusable:focus{
+  position:absolute; z-index:50; padding:.5rem .75rem; background:#fff; border-radius:.5rem;
+  box-shadow:0 6px 20px rgba(2,12,27,.15); clip:auto; height:auto; width:auto; margin:0;
+}
+

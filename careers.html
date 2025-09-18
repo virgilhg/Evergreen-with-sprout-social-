@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evergreen Careers</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" onload="this.rel='stylesheet'">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%232B7A77' d='M24 4H6v13.333V30.667h18V44h18V30.667V17.333H24V4Z'/%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <style>
+    :root{
+      --brand:#2B7A77;         
+      --brand-700:#2B7A77;
+      --brand-800:#236664;
+      --ink:#0B1F2A;           
+      --mute:#4A5B68;          
+      --surf:#F6F8FA;          
+    }
+    html,body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif}
+    .btn-brand{background:var(--brand);color:#fff}
+    .btn-brand:hover{background:var(--brand-800)}
+    .link-muted{color:var(--mute)}
+    .link-muted:hover{color:var(--brand)}
+    .brand-text{color:var(--brand)}
+    .brand-bg{background:var(--brand)}
+    .ink{color:var(--ink)}
+    .surf{background:var(--surf)}
+    .soft-shadow{box-shadow:0 6px 20px rgba(2,12,27,.06)}
+  </style>
+</head>
+<body class="bg-white text-[var(--ink)]">
+  
+  <div class="min-h-screen flex flex-col">
+
+    
+    <header class="sticky top-0 z-30 bg-white/85 backdrop-blur border-b border-gray-200">
+      <div class="max-w-7xl mx-auto h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2">
+          <svg class="h-8 w-8 brand-text" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6v13.333V30.667h18V44h18V30.667V17.333H24V4Z"/>
+          </svg>
+          <span class="text-lg font-bold tracking-tight">Evergreen Careers</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="index.html" class="text-sm link-muted">Home</a>
+          <a href="#roles" class="text-sm link-muted">Open Roles</a>
+          <a href="#benefits" class="text-sm link-muted">Benefits</a>
+          <a href="#footer" class="text-sm link-muted">Contact</a>
+        </nav>
+        <a href="#roles" class="hidden sm:inline-flex btn-brand px-4 py-2 text-sm font-semibold rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--brand)]">Apply</a>
+      </div>
+    </header>
+
+    
+    <section class="relative">
+      <img
+        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK6Ukzyjm7c1jW41B73gjlBGNViaaacWpsyXQZkoqZ5u0UJip_TErjLpfmWV2ZRGAqh3S9QQJ15fwot6OsAVDXmtQmE8TFTBl6OMzfYrBDLQmlvy8K_Krmoi_0vvJlHWkiz2yuACQU0pEMUqpI-ox3hfSHnMVQUBxB4Uu96tdZU83pHxdROb7ENTviKN76uJaX8auOuzHTawFi21kxaagL0SLT21oShGWyogzlFoJOSaWdXrI3itKFVIxAFuUelslsd2cgd71NybGk"
+        alt="" class="absolute inset-0 w-full h-[44vh] sm:h-[52vh] object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+        <h1 class="text-white text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight">Join Our Team</h1>
+        <p class="max-w-2xl mt-4 text-gray-200 text-lg">
+          Help us shape meaningful relationships between brands and audiences. Explore open positions and find your place at Evergreen.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="#roles" class="btn-brand px-5 py-3 rounded-md text-sm font-semibold soft-shadow">View Open Roles</a>
+          <a href="#benefits" class="px-5 py-3 rounded-md text-sm font-semibold bg-white/10 text-white border border-white/30 hover:bg-white/20">Why Evergreen</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <div class="sticky top-16 z-20 bg-white/95 backdrop-blur border-b border-gray-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center gap-4">
+        <div class="relative flex-1">
+          <input type="text" placeholder="Search for jobs…" class="w-full rounded-md border-gray-300 py-2 pl-3 pr-3 text-sm focus:border-[var(--brand)] focus:ring-[var(--brand)]" />
+        </div>
+        <select class="rounded-md border-gray-300 py-2 pl-3 pr-8 text-sm focus:border-[var(--brand)] focus:ring-[var(--brand)]">
+          <option selected>Department</option><option>Engineering</option><option>Product</option><option>Design</option>
+        </select>
+        <select class="rounded-md border-gray-300 py-2 pl-3 pr-8 text-sm focus:border-[var(--brand)] focus:ring-[var(--brand)]">
+          <option selected>Location</option><option>Remote</option><option>Chicago</option><option>London</option>
+        </select>
+      </div>
+    </div>
+
+    
+    <section id="roles" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+        
+        <article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuB-AzZayjjRRidXUV-qFKOcEh0azBQVOXE0Rz6unqEEM8rTcq3vOH7Tc_XKIaRQBuuPYtqXrzt1eZs1cMBgQdLhvh_CyRuxciUrpjAVXUo2RXe-wb2iD7ekR8q8AmqtfIkKlrMQmj1FcAmXyGHbD9gxbSnD9PUtoaZLoZ6L8zfIS2YknUaqLpkHpDB0TmjPDofU3PIKXEI4LGghu96yVXrv8eYozT1h3ZMOqPupYwppFL4WZ2pxYdFJ5BbB22Ww3Cq8DPauTfIpfYiV");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Front-End Engineer</h3>
+            <p class="text-sm link-muted">Engineering</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-green-100 px-2 py-1 font-medium text-green-800">Remote</span>
+            </div>
+          </div>
+        </article>
+
+        
+        <article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuCk1bjjj3toylbhS2A3P_jrLIEBn0Fg29d7f9qdVzbCuHxhGzDobgdChkdTPygb7glKok-uJHy6VWUr6VNEcye4T_u7VTk8_H8bqMyWaq6CcTXhoGrie2_HOtK-NkhvjzrLCdvxzGSKDmI58yl08gzxa-qEzEkMRIlaxtszpLkIpRk_tmThYmXO2fii6Pvzo-0LRRjXnkQfrRKeojqkKzO_b_vDBdUpzikTsZBCg4Sc8TaJ9BIWVpDez66kH0TxNvTI3V_egloStr1A");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Product Manager</h3>
+            <p class="text-sm link-muted">Product</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-purple-100 px-2 py-1 font-medium text-purple-800">Chicago</span>
+            </div>
+          </div>
+        </article>
+        <article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuCk1bjjj3toylbhS2A3P_jrLIEBn0Fg29d7f9qdVzbCuHxhGzDobgdChkdTPygb7glKok-uJHy6VWUr6VNEcye4T_u7VTk8_H8bqMyWaq6CcTXhoGrie2_HOtK-NkhvjzrLCdvxzGSKDmI58yl08gzxa-qEzEkMRIlaxtszpLkIpRk_tmThYmXO2fii6Pvzo-0LRRjXnkQfrRKeojqkKzO_b_vDBdUpzikTsZBCg4Sc8TaJ9BIWVpDez66kH0TxNvTI3V_egloStr1A");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Back-End Engineer</h3>
+            <p class="text-sm link-muted">Engineering</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-green-100 px-2 py-1 font-medium text-green-800">Remote</span>
+            </div>
+          </div>
+        </article>
+        <article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuCk1bjjj3toylbhS2A3P_jrLIEBn0Fg29d7f9qdVzbCuHxhGzDobgdChkdTPygb7glKok-uJHy6VWUr6VNEcye4T_u7VTk8_H8bqMyWaq6CcTXhoGrie2_HOtK-NkhvjzrLCdvxzGSKDmI58yl08gzxa-qEzEkMRIlaxtszpLkIpRk_tmThYmXO2fii6Pvzo-0LRRjXnkQfrRKeojqkKzO_b_vDBdUpzikTsZBCg4Sc8TaJ9BIWVpDez66kH0TxNvTI3V_egloStr1A");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Product Specialist</h3>
+            <p class="text-sm link-muted">Product</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-purple-100 px-2 py-1 font-medium text-purple-800">Chicago</span>
+            </div>
+          </div>
+        </article><article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuCk1bjjj3toylbhS2A3P_jrLIEBn0Fg29d7f9qdVzbCuHxhGzDobgdChkdTPygb7glKok-uJHy6VWUr6VNEcye4T_u7VTk8_H8bqMyWaq6CcTXhoGrie2_HOtK-NkhvjzrLCdvxzGSKDmI58yl08gzxa-qEzEkMRIlaxtszpLkIpRk_tmThYmXO2fii6Pvzo-0LRRjXnkQfrRKeojqkKzO_b_vDBdUpzikTsZBCg4Sc8TaJ9BIWVpDez66kH0TxNvTI3V_egloStr1A");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Engineering Manager</h3>
+            <p class="text-sm link-muted">Engineering</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-green-100 px-2 py-1 font-medium text-green-800">Remote</span>
+            </div>
+          </div>
+        </article>
+        <article class="group overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
+          <div class="h-48 w-full overflow-hidden">
+            <div class="h-full w-full bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                 style='background-image:url("https://lh3.googleusercontent.com/aida-public/AB6AXuBAgzjZd-JAq4ZPdiF0Fjq5Y-_Mj_xtV_ubu56TUUCTLSF_uixvFcArc4f-kEJ7u46B6Y1ZZgOZG8Lg5uB9vzes6ZXZYcy1whalMNrazHgQ0Iw635vSda7AcvzrYMu1fb-HBubx88GjuSfhmbG1ZjRUsZqVEYQLlT_peJc3s3_on8vU1-weYHXNtXQvwn0nTrqRELfLX_Q4xP--0MTe4UoytOSOAW80Yd1mfsMDB8Mt99NUi_d-SLWwy_aQUVl9ciGzt3sqpd29KJAg");'></div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">UX Designer</h3>
+            <p class="text-sm link-muted">Design</p>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center rounded-full bg-blue-100 px-2 py-1 font-medium text-blue-800">Full-time</span>
+              <span class="inline-flex items-center rounded-full bg-green-100 px-2 py-1 font-medium text-green-800">Remote</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="#" class="btn-brand px-6 py-3 rounded-md text-base font-semibold soft-shadow">View All Open Positions</a>
+      </div>
+    </section>
+
+    
+    <section id="benefits" class="surf">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold">Our Culture & Benefits</h2>
+          <p class="mt-3 max-w-2xl mx-auto text-[var(--mute)]">We empower our team to do their best work.</p>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">paid</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Competitive Compensation</h3>
+              <p class="text-[var(--mute)]">Salary, equity, and meaningful rewards.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">favorite</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Health & Wellness</h3>
+              <p class="text-[var(--mute)]">Medical, dental, vision for you and family.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">school</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Professional Growth</h3>
+              <p class="text-[var(--mute)]">Budget for courses, books, and events.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">schedule</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Flexible Work</h3>
+              <p class="text-[var(--mute)]">Remote-friendly with thoughtful balance.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">diversity_3</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Inclusive Environment</h3>
+              <p class="text-[var(--mute)]">We celebrate diverse perspectives.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-lg bg-[color:var(--brand)]/10 text-[color:var(--brand)] grid place-items-center">
+              <span class="material-symbols-outlined">eco</span>
+            </div>
+            <div>
+              <h3 class="font-semibold">Sustainability</h3>
+              <p class="text-[var(--mute)]">We work to reduce our footprint.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer id="footer" class="bg-white border-t border-gray-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+          <div>
+            <div class="flex items-center gap-2">
+              <svg class="h-7 w-7 brand-text" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6v13.333V30.667h18V44h18V30.667V17.333H24V4Z"/>
+              </svg>
+              <span class="font-bold">Evergreen</span>
+            </div>
+            <p class="mt-3 text-sm text-[var(--mute)]">© 2025 Evergreen. All rights reserved.</p>
+          </div>
+
+          <div>
+            <h4 class="text-sm font-semibold mb-3">Product</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#" class="link-muted hover:underline">Features</a></li>
+              <li><a href="#" class="link-muted hover:underline">Pricing</a></li>
+              <li><a href="#" class="link-muted hover:underline">Integrations</a></li>
+              <li><a href="#" class="link-muted hover:underline">API Docs</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-sm font-semibold mb-3">Company</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#" class="link-muted hover:underline">About Us</a></li>
+              <li><a href="#" class="link-muted hover:underline">Careers</a></li>
+              <li><a href="#" class="link-muted hover:underline">Press</a></li>
+              <li><a href="#" class="link-muted hover:underline">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-sm font-semibold mb-3">Resources</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#" class="link-muted hover:underline">Blog</a></li>
+              <li><a href="#" class="link-muted hover:underline">Help Center</a></li>
+              <li><a href="#" class="link-muted hover:underline">Community</a></li>
+              <li><a href="#" class="link-muted hover:underline">Status</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-10 flex items-center justify-between border-t border-gray-200 pt-6">
+          <p class="text-sm text-[var(--mute)]">Built with love for candidates and teams.</p>
+          <div class="flex gap-5 text-[var(--mute)]">
+            <!-- Social icons -->
+            <a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+            </a>
+            <a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm5.25-9.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+            </a>
+            <a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+            </a>
+            <a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)]" href="#">
+            <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill-rule="evenodd"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Material Symbols (for benefit icons) -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</body>
+</html>
