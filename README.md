@@ -2,7 +2,7 @@
 
 This project is a polished home + careers page concept for a fictional company called **Evergreen**. It showcases open roles, culture, and benefits with a modern design that emphasizes accessibility and user-friendliness.  
 
-🔗 **Live demo**: [https://yourusername.github.io/evergreen-careers](https://evergreeneery.netlify.app/)  
+🔗 **Live demo**: [https://evergreeneery.netlify.app/](https://evergreeneery.netlify.app/)  
 📸 **Screenshot**: *( screenshot here once deployed)*  
 
 ---
