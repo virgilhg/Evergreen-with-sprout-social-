@@ -49,4 +49,4 @@ If I had more time, I’d add:
 ---
 
 
-👉 This project is about more than just code — it’s about **communicating a brand through design and interaction**, something I know matters at Sprout Social.  
+👉 This project is about more than just code — it’s about **communicating a brand through design and interaction**, something I know matters for clients.  
